@@ -26,7 +26,7 @@ function Seat({ index,status, onClick }) {
 
       return () => clearInterval(interval);
     }
-}, [status.status, dispatch,index]);
+}, [status.status, dispatch,index, status.startTime]);
 
 
   const getStatusIconColor = () => {
