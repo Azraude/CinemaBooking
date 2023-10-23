@@ -1,0 +1,22 @@
+.cinema{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+/* //btn at the center of the grid  */
+.btn{
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+
+}
+body{
+    margin-top:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}

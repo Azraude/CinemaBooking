@@ -1,0 +1,26 @@
+.seats{
+    display:flex;
+    flex-direction:row;
+    gap:12px;
+    justify-content:center;
+    margin:15px;
+  }
+.seats > *{
+    flex:1;
+    padding:15px;
+    margin:15px;
+  
+}
+.seat{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+}
